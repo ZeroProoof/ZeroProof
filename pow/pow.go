@@ -1,8 +1,8 @@
 package pow
 
 //import "crypto/sha256"
-import "github.com/deroproject/derohe/cryptography/crypto"
-import "github.com/deroproject/derohe/astrobwt"
+import "github.com/ZeroProoof/ZeroProof/cryptography/crypto"
+import "github.com/ZeroProoof/ZeroProof/astrobwt"
 
 // patch algorithm in here to conduct various tests
 func Pow(input []byte) (output crypto.Hash) {
