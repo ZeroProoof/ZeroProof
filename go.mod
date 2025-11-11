@@ -1,3 +1,3 @@
-module github.com/deroproject/derohe
+module github.com/ZeroProoof/ZeroProof
 
 go 1.17
