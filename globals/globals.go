@@ -35,8 +35,8 @@ import "github.com/go-logr/logr"
 import "github.com/go-logr/zapr"
 import "github.com/robfig/cron/v3"
 
-import "github.com/deroproject/derohe/config"
-import "github.com/deroproject/derohe/rpc"
+import "github.com/ZeroProoof/ZeroProof/config"
+import "github.com/ZeroProoof/ZeroProof/rpc"
 
 // all the the global variables used by the program are stored here
 // since the entire logic is designed around a state machine driven by external events
