@@ -25,7 +25,7 @@ import "strconv"
 //import "crypto/rand"
 //import "encoding/hex"
 
-import "github.com/deroproject/derohe/cryptography/bn256"
+import "github.com/ZeroProoof/ZeroProof/cryptography/bn256"
 
 //import "golang.org/x/crypto/sha3"
 
