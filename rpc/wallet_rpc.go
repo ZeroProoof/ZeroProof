@@ -28,7 +28,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/deroproject/derohe/cryptography/crypto"
+	"github.com/ZeroProoof/ZeroProof/cryptography/crypto"
 )
 
 // these structures are completely decoupled from blockchain and live only within the wallet
