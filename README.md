@@ -1,11 +1,11 @@
-# Welcome to DERO
-[Twitter](https://twitter.com/DeroProject) [Discord](https://discord.gg/H95TJDp) [GitHub](https://github.com/deroproject/derohe) [Explorer](https://testnetexplorer.dero.io) [Wiki](https://wiki.dero.io) [Web Wallet](https://wallet.dero.io/)
+# Welcome to ZeroProof
+[Twitter](https://twitter.com/ZeroProofProject) [Discord](https://discord.gg/H95TJDp) [GitHub](https://github.com/ZeroProofproject/ZeroProofhe) [Explorer](https://testnetexplorer.ZeroProof.io) [Wiki](https://wiki.ZeroProof.io) [Web Wallet](https://wallet.ZeroProof.io/)
 
-DERO is a blockchain with Smart Contracts preserving your privacy through multiple features while staying fast, secure, and accessible to all people easily.
+ZeroProof is a blockchain with Smart Contracts preserving your privacy through multiple features while staying fast, secure, and accessible to all people easily.
 
-DERO is running since December 2017 and was previously running on a unique implementation of CryptoNote protocol with blockDAG and as migrated to this unique version for Smart Contracts, Services, better performance, better privacy and more security.
+ZeroProof is running since December 2017 and was previously running on a unique implementation of CryptoNote protocol with blockDAG and as migrated to this unique version for Smart Contracts, Services, better performance, better privacy and more security.
 
-## DERO Homomorphic Encryption
+## ZeroProof Homomorphic Encryption
 
 ### What is "Homomorphic Encryption" ?
 
@@ -17,41 +17,41 @@ For more details of what is Homomorphic Encryption, please see [Wikipedia](https
 
 ## Summary
 
-- [Welcome to DERO](#welcome-to-dero)
-  - [DERO Homomorphic Encryption](#dero-homomorphic-encryption)
+- [Welcome to ZeroProof](#welcome-to-ZeroProof)
+  - [ZeroProof Homomorphic Encryption](#ZeroProof-homomorphic-encryption)
     - [What is "Homomorphic Encryption" ?](#what-is-homomorphic-encryption-)
   - [Summary](#summary)
-  - [About DERO Project](#about-dero-project)
+  - [About ZeroProof Project](#about-ZeroProof-project)
       - [Features](#features)
   - [Transactions Sizes](#transactions-sizes)
   - [Network Ports](#network-ports)
     - [Mainnet](#mainnet)
     - [Testnet](#testnet)
   - [Technical](#technical)
-  - [DERO blockchain salient features](#dero-blockchain-salient-features)
+  - [ZeroProof blockchain salient features](#ZeroProof-blockchain-salient-features)
       - [**Erasure Coded Blocks**](#erasure-coded-blocks)
       - [Client Protocol](#client-protocol)
-      - [Proving DERO Transactions](#proving-dero-transactions)
-  - [DERO Installation](#dero-installation)
+      - [Proving ZeroProof Transactions](#proving-ZeroProof-transactions)
+  - [ZeroProof Installation](#ZeroProof-installation)
     - [Installation From Source](#installation-from-source)
     - [Installation From Binary](#installation-from-binary)
-    - [Running DERO Daemon](#running-dero-daemon)
-    - [DERO CLI Wallet](#dero-cli-wallet)
-    - [DERO Explorer](#dero-explorer)
+    - [Running ZeroProof Daemon](#running-ZeroProof-daemon)
+    - [ZeroProof CLI Wallet](#ZeroProof-cli-wallet)
+    - [ZeroProof Explorer](#ZeroProof-explorer)
 
-## About DERO Project
+## About ZeroProof Project
 
-DERO is running since December 2017 and was previously running on a unique [implementation](https://github.com/deroproject/derosuite) of CryptoNote protocol with blockDAG and as migrated to this unique version for Smart Contracts, Services, better performance, better privacy and more security.
+ZeroProof is running since December 2017 and was previously running on a unique [implementation](https://github.com/ZeroProofproject/ZeroProofsuite) of CryptoNote protocol with blockDAG and as migrated to this unique version for Smart Contracts, Services, better performance, better privacy and more security.
 
-Consensus algorithm is PoW based on [AstroBWT](https://github.com/deroproject/astrobwt), a ASIC/FPGA/GPU resistant CPU mining algorithm to improve decentralization and lower the barrier of joining the network.
+Consensus algorithm is PoW based on [AstroBWT](https://github.com/ZeroProofproject/astrobwt), a ASIC/FPGA/GPU resistant CPU mining algorithm to improve decentralization and lower the barrier of joining the network.
 
-DERO is industry leading and the first blockchain to have Homomorphic Encryption, bulletproofs and a fully TLS encrypted network.
+ZeroProof is industry leading and the first blockchain to have Homomorphic Encryption, bulletproofs and a fully TLS encrypted network.
 
 The fully distributed ledger processes transactions with a  16s (sixty-seconds) average block time and is secure against majority hashrate attacks.
 
-DERO is the first Homomorphic Encryption based blockchain to have Smart Contracts contracts on its native chain without any extra layers or secondary blockchains.
+ZeroProof is the first Homomorphic Encryption based blockchain to have Smart Contracts contracts on its native chain without any extra layers or secondary blockchains.
 
-At present DERO has implemented Smart Contracts for previous mainnet implementation running on CryptoNote protocol which can be found [here](https://github.com/deroproject/documentation/blob/master/testnet/stargate.md).
+At present ZeroProof has implemented Smart Contracts for previous mainnet implementation running on CryptoNote protocol which can be found [here](https://github.com/ZeroProofproject/documentation/blob/master/testnet/stargate.md).
 
 #### Features
 
@@ -142,7 +142,7 @@ Senders of a transaction can prove to receivers what amount they have send witho
 
 ## Technical
 
-For specific details of current DERO core (daemon) implementation and capabilities, see below:
+For specific details of current ZeroProof core (daemon) implementation and capabilities, see below:
 
 - ~~**DAG**: No orphan blocks, No soft-forks.~~
 **NOTE**: This feature has been disabled for mainnet to reduce load for small devices.
@@ -171,18 +171,18 @@ For specific details of current DERO core (daemon) implementation and capabiliti
 
 - **Serialization/De-serialization of transactions**: Capability to encode/decode/process transactions.
 
-- **Transaction validity and verification**: Any transactions flowing within the DERO network are validated, verified.
+- **Transaction validity and verification**: Any transactions flowing within the ZeroProof network are validated, verified.
 
 - **Socks proxy**: Socks proxy has been implemented and integrated within the daemon to decrease user identifiability and improve user anonymity.
 
 - **Interactive daemon**: can print blocks, txs, even entire blockchain from within the daemon
 	-	`version`, `peer_list` `status`, `diff`, `print_bc`, `print_block`, `print_tx` and several other commands implemented
 
-- **Networks**: DERO Daemon has both mainnet and testnet support.
+- **Networks**: ZeroProof Daemon has both mainnet and testnet support.
 
 - **Enhanced Reliability, Privacy, Security, Useability, Portabilty assured.**
 
-## DERO blockchain salient features
+## ZeroProof blockchain salient features
 
 - 16 Second Block time.
 - Extremely fast transactions with one minute/block confirmation time.
@@ -190,75 +190,75 @@ For specific details of current DERO core (daemon) implementation and capabiliti
 - Homomorphic: Fully Encrypted Blockchain
 - Ring signatures.
 - Fully Auditable Supply.
-- DERO blockchain is written from scratch in Golang.
+- ZeroProof blockchain is written from scratch in Golang.
 - Developed and maintained by original developers.
 
 #### **Erasure Coded Blocks**
 
-Traditional Blockchains process blocks as single unit of computation(if a double-spend tx occurs within the block, entire block is rejected). As soon as a block is found, it is sent to all its peers.DERO blockchain erasure codes the block into 48 chunks, dispersing and chunks are dispersed to peers randomly.Any peer receiving any 16 chunks( from 48 chunks) can regerate the block and thus lower overheads and lower propagation time.
+Traditional Blockchains process blocks as single unit of computation(if a double-spend tx occurs within the block, entire block is rejected). As soon as a block is found, it is sent to all its peers.ZeroProof blockchain erasure codes the block into 48 chunks, dispersing and chunks are dispersed to peers randomly.Any peer receiving any 16 chunks( from 48 chunks) can regerate the block and thus lower overheads and lower propagation time.
 
 #### Client Protocol
 
-Traditional Blockchains process blocks as single unit of computation(if a double-spend tx occurs within the block, entire block is rejected). However DERO network accepts such blocks since DERO blockchain considers transaction as a single unit of computation.DERO blocks may contain duplicate or double-spend transactions which are filtered by client protocol and ignored by the network. DERO DAG processes transactions atomically one transaction at a time.
+Traditional Blockchains process blocks as single unit of computation(if a double-spend tx occurs within the block, entire block is rejected). However ZeroProof network accepts such blocks since ZeroProof blockchain considers transaction as a single unit of computation.ZeroProof blocks may contain duplicate or double-spend transactions which are filtered by client protocol and ignored by the network. ZeroProof DAG processes transactions atomically one transaction at a time.
 
-#### Proving DERO Transactions
+#### Proving ZeroProof Transactions
 
-DERO blockchain is completely private, so anyone cannot view, confirm, verify any other's wallet balance or any transactions.
+ZeroProof blockchain is completely private, so anyone cannot view, confirm, verify any other's wallet balance or any transactions.
 
-So to prove any transaction you require *TXID* and *deroproof*.
-deroproof can be obtained using `get_tx_key` command in dero-wallet-cli.
+So to prove any transaction you require *TXID* and *ZeroProofproof*.
+ZeroProofproof can be obtained using `get_tx_key` command in ZeroProof-wallet-cli.
 
-Enter the *TXID* and *deroproof* in [DERO Explorer](https://testnetexplorer.dero.io)
-![DERO Explorer Proving Transaction](https://github.com/deroproject/documentation/raw/master/images/explorer-prove-tx.png)
+Enter the *TXID* and *ZeroProofproof* in [ZeroProof Explorer](https://testnetexplorer.ZeroProof.io)
+![ZeroProof Explorer Proving Transaction](https://github.com/ZeroProofproject/documentation/raw/master/images/explorer-prove-tx.png)
 
-## DERO Installation
+## ZeroProof Installation
 
-DERO is written in golang and very easy to install both from source and binary.
+ZeroProof is written in golang and very easy to install both from source and binary.
   
 ### Installation From Source
 
 First you need to install Golang if not already, minimum version required for Golang is 1.17.
 
 In go workspace, execute:
-`go get -u github.com/deroproject/derohe/...`
+`go get -u github.com/ZeroProofproject/ZeroProofhe/...`
 
 When the command has finished, check go workspace bin folder for binaries.
 For example, on Linux machine the following binaries will be created:
--  `derod-linux-amd64`: DERO Daemon
--  `dero-wallet-cli-linux-amd64`: DERO CLI Wallet
--  `explorer-linux-amd64`: DERO Explorer (Yes, DERO has prebuilt personal explorer also for advance privacy users)
+-  `ZeroProofd-linux-amd64`: ZeroProof Daemon
+-  `ZeroProof-wallet-cli-linux-amd64`: ZeroProof CLI Wallet
+-  `explorer-linux-amd64`: ZeroProof Explorer (Yes, ZeroProof has prebuilt personal explorer also for advance privacy users)
 
 ### Installation From Binary
 
-Download [DERO binaries](https://github.com/deroproject/derohe/releases)  for ARM, INTEL, MAC platform and Windows, Mac, FreeBSD, OpenBSD, Linux (or any others availables platforms) operating systems.
+Download [ZeroProof binaries](https://github.com/ZeroProofproject/ZeroProofhe/releases)  for ARM, INTEL, MAC platform and Windows, Mac, FreeBSD, OpenBSD, Linux (or any others availables platforms) operating systems.
 
-### Running DERO Daemon
+### Running ZeroProof Daemon
 
-Run derod.exe or derod-linux-amd64 depending on your operating system. It will start syncing.
+Run ZeroProofd.exe or ZeroProofd-linux-amd64 depending on your operating system. It will start syncing.
 
-- DERO daemon core cryptography is highly optimized and fast.
+- ZeroProof daemon core cryptography is highly optimized and fast.
 - Use dedicated machine and SSD for best results.
 - VPS with 2-4 Cores, 4GB RAM,15GB disk is recommended.
 
-![DERO Daemon](https://raw.githubusercontent.com/deroproject/documentation/master/images/derod1.png)
+![ZeroProof Daemon](https://raw.githubusercontent.com/ZeroProofproject/documentation/master/images/ZeroProofd1.png)
 
-### DERO CLI Wallet
-DERO cmdline wallet is menu based and very easy to operate.
+### ZeroProof CLI Wallet
+ZeroProof cmdline wallet is menu based and very easy to operate.
 
 Use various options to create, recover, transfer balance etc.
 
-**NOTE:** DERO cmdline wallet by default connects DERO daemon running on local machine on port 20206.
+**NOTE:** ZeroProof cmdline wallet by default connects ZeroProof daemon running on local machine on port 20206.
 
-If DERO daemon is not running start DERO wallet with --remote option like following:
+If ZeroProof daemon is not running start ZeroProof wallet with --remote option like following:
 
-**./dero-wallet-cli-linux-amd64 --remote**
+**./ZeroProof-wallet-cli-linux-amd64 --remote**
 
-![DERO Wallet](https://raw.githubusercontent.com/deroproject/documentation/master/images/wallet-recover2.png)
+![ZeroProof Wallet](https://raw.githubusercontent.com/ZeroProofproject/documentation/master/images/wallet-recover2.png)
 
-### DERO Explorer
+### ZeroProof Explorer
 
-[DERO Explorer](https://explorer.dero.io/) is used to check and confirm transaction on DERO Network.
+[ZeroProof Explorer](https://explorer.ZeroProof.io/) is used to check and confirm transaction on ZeroProof Network.
 
-DERO users can run their own explorer on local machine and can [browse](http://127.0.0.1:8080) on local machine port 8080.
+ZeroProof users can run their own explorer on local machine and can [browse](http://127.0.0.1:8080) on local machine port 8080.
 
-![DERO Explorer](https://github.com/deroproject/documentation/raw/master/images/dero_explorer.png)
+![ZeroProof Explorer](https://github.com/ZeroProofproject/documentation/raw/master/images/ZeroProof_explorer.png)
