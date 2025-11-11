@@ -28,15 +28,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/deroproject/derohe/cryptography/bn256"
-	"github.com/deroproject/derohe/cryptography/crypto"
-	"github.com/deroproject/derohe/rpc"
-	"github.com/deroproject/derohe/transaction"
-	"github.com/deroproject/derohe/walletapi/mnemonics"
+	"github.com/ZeroProoof/ZeroProof/cryptography/bn256"
+	"github.com/ZeroProoof/ZeroProof/cryptography/crypto"
+	"github.com/ZeroProoof/ZeroProof/rpc"
+	"github.com/ZeroProoof/ZeroProof/transaction"
+	"github.com/ZeroProoof/ZeroProof/walletapi/mnemonics"
 	"github.com/go-logr/logr"
 )
 
-//import "github.com/deroproject/derohe/blockchain/inputmaturity"
+//import "github.com/ZeroProoof/ZeroProof/blockchain/inputmaturity"
 
 var logger logr.Logger = logr.Discard() // default discard all logs
 
