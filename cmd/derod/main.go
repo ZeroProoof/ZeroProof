@@ -44,16 +44,16 @@ import "github.com/chzyer/readline"
 import "github.com/docopt/docopt-go"
 import "gopkg.in/natefinch/lumberjack.v2"
 
-import "github.com/deroproject/derohe/p2p"
-import "github.com/deroproject/derohe/globals"
-import "github.com/deroproject/derohe/block"
-import "github.com/deroproject/derohe/transaction"
-import "github.com/deroproject/derohe/config"
-import "github.com/deroproject/derohe/rpc"
-import "github.com/deroproject/derohe/blockchain"
-import derodrpc "github.com/deroproject/derohe/cmd/derod/rpc"
+import "github.com/ZeroProoof/ZeroProof/p2p"
+import "github.com/ZeroProoof/ZeroProof/globals"
+import "github.com/ZeroProoof/ZeroProof/block"
+import "github.com/ZeroProoof/ZeroProof/transaction"
+import "github.com/ZeroProoof/ZeroProof/config"
+import "github.com/ZeroProoof/ZeroProof/rpc"
+import "github.com/ZeroProoof/ZeroProof/blockchain"
+import derodrpc "github.com/ZeroProoof/ZeroProof/cmd/derod/rpc"
 
-import "github.com/deroproject/derohe/cryptography/crypto"
+import "github.com/ZeroProoof/ZeroProof/cryptography/crypto"
 
 var command_line string = `derod 
 DERO : A secure, private blockchain with smart-contracts
