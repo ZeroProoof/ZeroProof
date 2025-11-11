@@ -27,10 +27,10 @@ import "encoding/binary"
 
 import "golang.org/x/crypto/sha3"
 
-import "github.com/deroproject/derohe/cryptography/crypto"
+import "github.com/ZeroProoof/ZeroProof/cryptography/crypto"
 
 //import "github.com/deroproject/derosuite/config"
-import "github.com/deroproject/derohe/transaction"
+import "github.com/ZeroProoof/ZeroProof/transaction"
 
 type Block struct {
 	Major_Version uint64                  `json:"major_version"`
