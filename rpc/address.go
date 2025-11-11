@@ -18,8 +18,8 @@ package rpc
 
 import "fmt"
 
-//import "github.com/deroproject/derohe/config"
-import "github.com/deroproject/derohe/cryptography/crypto"
+//import "github.com/ZeroProoof/ZeroProof/config"
+import "github.com/ZeroProoof/ZeroProof/cryptography/crypto"
 
 // older dero address https://cryptonote.org/cns/cns007.txt to understand address more
 // current dero versions use https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki
