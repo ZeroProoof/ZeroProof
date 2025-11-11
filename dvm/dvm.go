@@ -29,9 +29,9 @@ import "math"
 
 import "runtime/debug"
 import "github.com/blang/semver/v4"
-import "github.com/deroproject/derohe/cryptography/crypto"
+import "github.com/ZeroProoof/ZeroProof/cryptography/crypto"
 
-//import "github.com/deroproject/derohe/rpc"
+//import "github.com/ZeroProoof/ZeroProof/rpc"
 
 type Vtype int
 
