@@ -21,7 +21,7 @@ import "math/big"
 import "encoding/hex"
 
 //import "crypto/rand"
-import "github.com/deroproject/derohe/cryptography/bn256"
+import "github.com/ZeroProoof/ZeroProof/cryptography/bn256"
 
 // this file implements Big Number Reduced form with bn256's Order
 
