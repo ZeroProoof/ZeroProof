@@ -6,7 +6,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/deroproject/derohe/cryptography/crypto"
+	"github.com/ZeroProoof/ZeroProof/cryptography/crypto"
 	"github.com/fxamacker/cbor/v2"
 )
 
